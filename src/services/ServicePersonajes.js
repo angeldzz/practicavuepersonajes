@@ -11,4 +11,13 @@ export default class ServicePersonajes{
             })
         })
     }
+    postPersonaje(personaje){
+        return new Promise(function (resolve) {
+            let url = Global.urlSeries
+            let request = url + "/api/personajes"
+            axios.post(request,personaje).then(response => {
+                resolve(response)
+            })
+        })
+    }
 }

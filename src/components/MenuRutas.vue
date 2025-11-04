@@ -12,7 +12,7 @@
                             <router-link class="nav-link" to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/">Nuevo Personaje</router-link>
+                            <router-link class="nav-link" to="/createPersonaje">Nuevo Personaje</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/">Modificar Personaje</router-link>
