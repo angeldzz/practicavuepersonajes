@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <img src="https://img.freepik.com/vector-gratis/hermosa-casa_24877-50819.jpg?semt=ais_hybrid&w=740&q=80" alt="aaaa">
   </div>
 </template>
 

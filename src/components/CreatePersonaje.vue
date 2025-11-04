@@ -45,7 +45,7 @@ export default {
         idSerie: this.idserie,
       }
       servicePersonajes.postPersonaje(personaje).then(() => {
-        console.log("Personaje Creado");
+          this.$router.push("/personajes/" + this.idserie)
       })
     },
     loadSeries() {

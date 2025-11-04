@@ -53,7 +53,7 @@ export default {
     },
     updatePersonaje(){
         servicePersonajes.updatePersonaje(this.idPersonaje,this.idSerie).then(()=>{
-            console.log("Personaje Editado");
+            this.$router.push("/personajes/" + this.idSerie)
         })
     }
   },
