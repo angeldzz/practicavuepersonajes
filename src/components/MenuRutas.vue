@@ -48,7 +48,6 @@ export default {
     },
     mounted(){
         service.getSeries().then(response => {
-            console.log(response);
             this.series = response
         })
     }
